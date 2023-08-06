@@ -1,0 +1,17 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h3{
+    display: flex;
+    align-self: flex-start;
+}
+
+.header {
+    padding: 20px;
+}
