@@ -4,15 +4,30 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="styles/layout.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Silkscreen">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=League+Spartan">
         <title>Page title. Shown in tabs.</title>
+        <meta property='og:title' content='Jared Tanuwidjaja\s personal website'/>
+        <meta property='og:image' content='/images/IMG_2655.jpg'>
+        <meta property='og:description' content='Information about Jared Tanuwidjaja such as education, work experience, and projects.'/>
+        <meta property='og:url' content='matchasaur.github.io'/>
     </head>
 
     <body>
         <div class="layout">
-            <img src="images/IMG_2655.jpg" width="300px" height="300px"> 
-            <h1 class="header">Jared Tanuwidjaja</h1>
-            <h2 class="header">Recent graduate from University of California Riverside</h2>
+            <div class="top">
+                <img src="images/IMG_2655.jpg" width="300px" height="300px"> 
+                <div class="top2">
+                    <h1 class="head1">Jared Tanuwidjaja</h1>
+                    <i class="head2">
+                        <h2 class="head2">Recent graduate from University of California Riverside</h2> 
+                    </i>
+                    <a class="media" href="https://www.linkedin.com/in/jared-tanuwidjaja/"> LinkedIn </a>
+                    
+                    <a class="media" href="https://www.instagram.com/fufutofuu/">   Instagram</a>
+
+                </div>
+            </div>
+            
             <!-- socials go here -->
             
             <!-- About Me -->
@@ -46,7 +61,7 @@
 
             <!-- Education -->
             <h3>Education</h3>
-            <table>
+            <table class="education">
                 <tbody>
                     <tr>
                         <td>University of California Riverside</td>
@@ -60,20 +75,25 @@
 
             <!-- Coursework -->
             <h3>Coursework</h3>
-            <ul>
-                <li>Software Construction</li>
-                <li>Intermediate Datastructures & Algorithms</li>
-                <li>Database Management Systems</li>
-                <li>Intro to Artificial Intelligence</li>
-                <li>Intro to Machine Learning & Data Mining</li>
-            </ul>
+            <div class="left">
+                <ul>
+                    <li>Software Construction</li>
+                    <li>Intermediate Datastructures & Algorithms</li>
+                    <li>Database Management Systems</li>
+                    <li>Intro to Artificial Intelligence</li>
+                    <li>Intro to Machine Learning & Data Mining</li>
+                </ul>
+            </div>
+            
             <h3>Skills</h3>
-            <ul>
-                <li>C++, C, Python, Javascript</li>
-                <li>Mongo, Express, React, Node</li>
-                <li>Git, Figma</li>
-            </ul>
-
+            <div class="left">
+                <ul>
+                    <li>C++, C, Python, Javascript</li>
+                    <li>Mongo, Express, React, Node</li>
+                    <li>Git, Figma</li>
+                </ul>
+            </div>
+            
             <!-- Projects -->
             <h3>Projects</h3>
             <ul>
